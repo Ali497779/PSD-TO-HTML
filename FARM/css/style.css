@@ -1,0 +1,429 @@
+@font-face{
+    font-family: TenorSans-Regular;
+    src: url(../fonts/TenorSans-Regular.ttf);
+}
+*{
+    background-color: #ebd0cf;
+    font-family: 'Tenor Sans', sans-serif;
+    font-family: TenorSans-Regular;
+}
+body{
+    margin: 0;
+}
+.uni-padding{
+    padding: 0% 7%;
+    
+}
+header{
+    overflow: auto;
+    border-bottom: 3px solid #4a7163;
+}
+#topbar{
+    display: inline;
+    width: 100%;
+    overflow: auto;
+    
+}
+.div30{
+    width: 30%;
+}
+.div30 img{
+    float: left;
+    margin-top: -20px;
+}
+.div60 ul{
+    list-style-type: none;
+    width: 60%;
+}
+.div60 ul li{
+    display: inline;
+    float: left;
+    padding: 20px;
+}
+.div60 ul li a{
+    text-decoration: none;
+    color: #4a7163;
+}
+#topbar .div10{
+    float: right;
+    width: 10%;
+}
+.fas{
+    color: #4a7163;
+    padding-top: 20px; 
+}
+.group1{
+    overflow: auto;
+    padding-top: 100px;
+}
+.div50w{
+    overflow: auto;
+    width: 100%;
+    position: absolute;
+    float: left;
+    display: inline;
+}
+.group1 img{
+    border-radius: 0px 200px 0px 0px;
+    position: absolute;
+    width: 250px;
+}
+.div50white{
+    overflow: auto;
+}
+.div50white h2,h1{
+    text-align: center;
+    letter-spacing: 4px;
+   color: #4a7163;   
+}
+.div50white h1{
+    font-size: 50px;
+}
+.div50green{
+    padding: 100px;
+    background: #4a7163;
+}
+.div50green p{
+    width: 70%;
+    height: 20%;
+    font-size: 10px;
+    color: white;
+    background: none;
+    position: relative;
+    top: -80px;
+    left: 280px;
+}
+.div50green label{
+    padding: 10px 50px;
+    color: #4a7163;
+    font-size: large;
+    position: relative;
+    top: -70px;
+    left: 280px;
+}
+
+.group2{
+    overflow: auto;
+    padding: 200px;
+    height: 100%;
+
+
+}
+.group2 h1{
+    text-align: center;
+    position: absolute;
+    top: 780px;
+    left: 520px;
+    font-size: 40px;
+    letter-spacing: 4px;
+}
+.group2 h3{
+    position: absolute;
+    top: 750px;
+    left: 590px;
+    font-size: 20px;
+    letter-spacing: 7px;
+    color: #4a7163;
+}
+.div30{
+    margin-top: 30px;
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    color: #4a7163;
+}
+.div30 img{
+    width: 250px;
+    text-align: center;
+    margin: 2px;
+}
+.div30 p{
+    width: 80%;
+    font-size: 20px;
+}
+.point{
+    padding: 20px;
+    margin-top: -20px;
+    text-align: center;
+
+}
+.point ul li{
+    display: inline;
+    color: #4a7163;
+    font-size: 200px;
+    text-align: center;
+    padding-left: 100px;
+}
+.divgreen{
+    overflow: auto;
+    width: 80%;
+    height: 850px;
+    background-color: #4a7163;
+}
+
+@font-face{
+    font-family: Myriad Pro;
+    src: url(/fonts/MyriadPro-Light.otf);
+}
+.portion{
+    background-color: #4a7163;
+    padding-top: 150px;
+    font-family: Myriad Pro;
+    width: 50%;
+}
+.portion p{
+    background: #4a7163;
+    color: white; 
+    text-align: left;
+    font-family: Myriad Pro;
+}
+.portion h3{
+     text-align: left;
+     font-size: 35px;
+     font-weight: -200px;
+     background: #4a7163;
+    color: white; 
+    text-align: left;
+    font-family: Myriad Pro;
+}
+.portion h1{
+    font-size: 60px;
+    font-weight: -3ps;
+    letter-spacing: 17px;
+    background: #4a7163;
+    color: white; 
+    text-align: left;
+    font-family: Myriad Pro;
+}
+.portion label{
+    position: relative;
+    top: 20px;
+    padding: 15px 70px;
+    font-size: 30px;
+    color: #4a7163;
+}
+.image{
+    width: 20%;
+    float: left;
+    position: absolute;
+    left: 800px;
+    top: 2000px;
+    border-radius: 0px 200px 0px 0px;
+    background-color: #4a7163;
+}
+.image img{
+    border-radius: 0px 200px 0px 0px;
+    width: 400px;
+}
+.g4div50{
+    width: 50%;
+    padding-bottom: 209px;
+    float: left;
+    overflow: auto;
+}
+.g4div50 img{
+    width: 100%;
+}
+.g4div50 h1{
+    float: right;
+    text-align: left;
+    margin-top: 200px;
+    margin-left: 90px;
+    font-size: 100px;
+}
+.g4div50 p{
+    text-align: left;
+    margin-left: 100px;
+    color: #4a7163;
+}
+.g4div50 button{
+    padding: 10px 40px;
+    border: 3px solid #4a7163;
+    color: #4a7163;
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+
+.g5div50{
+    width: 50%;
+    float: right;
+    overflow: auto;
+}
+
+.g5div50 img{
+    width: 100%;
+}
+.g5div50 h1{
+    float: right;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 2px;
+    font-size: 100px;
+}
+.g5div50 p{
+    text-align: left;
+    margin-left: 50px;
+    color: #4a7163;
+    width: 80%;
+}
+.g5div50 button{
+    padding: 10px 40px;
+    border: 3px solid #4a7163;
+    color: #4a7163;
+    font-size: 20px;
+    margin-left: 50px;
+}
+.gape{
+    padding-bottom: 1000px;
+    margin-bottom: 699px;
+}
+.group6{
+    width: 100%;
+    overflow: auto;
+    background-color: #4a7163;
+    margin: 0;
+}
+.group6 h1{
+    color: white;
+    letter-spacing: 15px;
+    width: 100%;
+    background-color: #4a7163;
+    margin: 0;
+
+}
+.group6 p{
+    text-align: center;
+    color: white;
+    background-color: #4a7163;
+    margin: 0px;
+}
+.person{
+    background-color: #4a7163;
+    width: 45%;
+    float: left;
+    text-align: center;
+    padding: 20px;
+    overflow: auto;
+
+}
+.person h1{
+    letter-spacing: 0px;
+    font-size: large;
+    background-color: #4a7163;
+}
+.person img{
+    background-color: #4a7163;
+}
+.person p{
+    font-size: small;
+    text-align: center;
+    width: 90%;
+    background-color: #4a7163;
+}
+.far{
+    margin-top: 200px;
+    text-align: center;
+}
+.pic{
+    width: 50%;
+    height: 20%;
+    float: left;
+    color: #4a7163;
+}
+.pic img{
+    width: 450px;
+}
+.pic h2{
+    letter-spacing: 2px;
+}
+.pic p{
+    font-size: small;
+}
+.group7 button{
+    padding: 10px 80px;
+    text-align: center;
+    position: relative;
+    left: 550px;
+    top: 70px;
+    color: white;
+    background-color: #4a7163;
+    border: none;
+    margin-bottom: 200px;
+}
+.footer{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #4a7163;
+}
+.f{
+    width: 25%;
+    float: left;
+    background-color: #4a7163;
+}
+.f h1{
+    background-color: #4a7163;
+    color: white;
+    font-size: 70px;
+    text-align: left;
+
+}
+.f i{
+    display: inline;
+    font-size: 30px;
+    color: white;
+    background-color: #4a7163;
+    text-align: left;
+
+}
+.f h3{
+    color: white;
+    font-size: medium;
+    letter-spacing: 4px;
+    background-color: #4a7163;
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 40px;
+
+}
+.f ul{
+    list-style-type: none;
+    background-color: #4a7163;
+    text-align: left;
+
+}
+.f ul li{
+    color: white;
+    margin-top: 20px;
+    text-align: left;
+    background-color: #4a7163;
+
+}
+.tagline p{
+    margin: 0;
+    padding: 40px;
+    color: white;
+    background-color: #4a7163;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
