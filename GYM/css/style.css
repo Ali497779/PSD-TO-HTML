@@ -1,0 +1,495 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Bebas Neue', cursive;
+}
+body{
+    margin: 0;
+}
+.uni-padding{
+    padding: 0 7%;
+}
+#topbar{
+background-color: rgb(194, 12, 28);
+padding-top: 18px;
+padding-bottom: 18px;
+overflow: auto;
+}
+.social-icon{
+    float: right;
+}
+#tolfree{
+    float: left;
+    color: white;
+    margin: 0;
+    margin-top: 5px;
+}
+.fab{
+    background-color: white;
+    color: rgb(194, 12, 28);
+    padding: 7px;
+    border-radius: 50%;
+}
+.fa-facebook-square{
+    padding: 7px 8px;
+}
+.fa-instagram-square{
+    padding: 7px 8px;
+}
+.fa-twitter-square{
+    padding: 7px 8px;
+}
+.fa-whatsapp{
+    padding: 7px 8px;  
+}
+#logobar img{
+    width: 140px;
+    margin: 15px 0px;
+    float: left;
+}
+.logohead{
+ text-align: center;
+ font-size: 35px;
+ letter-spacing: 15px;
+ position: relative;
+ animation-name: head;
+ animation-duration: 5s;
+}
+
+.logohead h1{
+    position: relative;
+ animation-name: head;
+ animation-duration: 5s;
+}
+
+
+.logohead h5{
+    margin-top: -50px;
+    letter-spacing: 10px;
+    position: relative;
+    animation-name: head2;
+    animation-duration: 5s;
+}
+@keyframes head{
+    0% {color: white; left: 300px;} 
+    30%{color: rgb(192, 189, 189); left:200px;}
+    100%{color: rgb(26, 25, 25); left: 0px;} 
+}
+
+#navbar{
+    background: black;
+}
+#navbar ul{
+    margin: 0;
+    padding: 0;
+}
+#navbar ul li{
+    display: inline-block;
+    padding: 20px 0px;
+    padding: 25px;
+
+}
+#navbar ul li:hover , .servicedown:hover .servicebtn{
+    background-color:rgb(194, 12, 28);
+    color: black;
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.service-content{
+    display: none;
+    position: absolute;
+    background-color: black;
+    color: white;
+    width: 120px;
+    z-index: 1;
+}
+.service-content a{
+    text-decoration: none;
+    border-top: 1px solid rgb(194, 12, 28) ;
+    color: white;
+    padding: 25px;
+    display: block;
+    text-align: center;
+}
+li.servicedown{
+    display: inline-block;
+}
+.servicedown:hover .service-content{
+    display: block;
+} 
+
+
+.red1 ,.red2{
+    color: maroon;
+    font-size: 70px;
+    font-family: 'Bebas Neue', cursive;
+}
+#poster{
+    background-image: url(../images/hero.jpg);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+#poster p{
+    font-size: 18px;
+    text-align: center;
+}
+
+.herohead .red1{
+    animation-name: hero;
+    position: relative;
+    animation-duration: 5s;
+}
+@keyframes hero{ 
+    0%{left:0px; top:0px;}
+    25%{left:0px; top:-100px;}
+    50%{left:300px; top:-100px;}
+    75%{left:300px;}
+    100%{left:0px; top:0px;}
+}
+.herohead .red2{
+    animation-name: hero2;
+    position: relative;
+    animation-duration: 5s;
+}
+@keyframes hero2{ 
+    0%{left:0px; top:0px;}
+    25%{left:0px; top:100px;}
+    50%{left:-300px; top: 100px;}
+    75%{left:-300px;}
+    100%{left:0px; top:0px;}
+}
+.herohead h1{
+    animation-name: leftright;
+    position: relative;
+    animation-duration: 5s;
+}
+@keyframes leftright{
+    0%   {eft:0px; top:0px;}
+  25%  {left:70px;}
+  50%  {left:-70px;}
+  75%  {left:50px;}
+  100% {left:0px; top:0px;}}
+
+
+#whysection{
+    overflow: auto;
+    margin-bottom: 50px;
+}
+.Quality{
+    color: rgb(90, 7, 7);
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 8px;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 12px;
+}
+
+.sec33{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.sec33 h1{
+    color: rgb(90, 7, 7);
+}
+.sec33 i{
+    color: black;
+    text-align: center;
+    position: relative;
+}
+.sec33 img{
+    text-align: center;
+    position: relative;
+    max-width: 100%;
+}
+.sec33 img:hover{
+    text-align: center;
+    width: 220px;
+    border: rgb(189, 186, 186) 2px solid;
+    box-shadow: gray;
+}
+
+#contactcontainer{
+    background-color: black;
+    color: white;
+    overflow: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.sec70{
+    width: 70%;
+    float: left;
+}
+.sec30{
+    width: 30;
+    float: left;
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+#contactbtn{
+    background-color: white;
+    color: rgb(90, 7, 7);
+    padding: 15px 50px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+}
+#contactbtn:hover{
+    color: white;
+    background-color: rgb(100, 1, 1);
+}
+.Qua a{
+    text-decoration: none;
+    color: black;
+    margin-top: 20px;
+}
+.Qua a:hover{
+    padding: 20px;
+    margin-top: 20px;
+    background-color: black;
+    color: white; 
+}
+
+#subscribesection{
+    background-color: rgb(53, 53, 53);
+    overflow: auto;
+    color: white;
+    padding: 40px;
+}
+.sec50{
+    width: 50%;
+    float: left;
+}
+.sec50 h2{
+    font-size: 27px;
+    text-align: right;
+    padding-right: 50px;
+}
+.sec50 form{
+    padding-top: 25px;
+}
+.sec50 input[type="text"]{
+    padding: 10px 15px;
+    font-size: 15px;
+    color: rgb(90, 7, 7);
+    margin-right: 20px;
+    border: 0px;
+    border-radius: 20px;
+    width: 45%;
+}
+.sec50 input[type="submit"]{
+    padding: 8px 35px;
+    font-size: 15px;
+    color: rgb(90, 7, 7);
+    border: 0px;
+}
+.sec50 input[type="submit"]:hover{
+    background-color: black;
+    color: white;
+}
+
+  #imp-link{
+    background-color: rgb(90, 7, 7);
+    color: white;
+    overflow: auto;
+}
+.div33{
+    width: 33.33%;
+    float: left;
+    padding: 25px 50px;
+    box-sizing: border-box;
+}
+.div33 h3{
+    letter-spacing: 3px;
+    font-size: normal;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 3px;
+}
+.div33 ul{
+    list-style-type:none ;
+}
+.div33 ul li{
+    padding-bottom: 9px;
+}
+.div33 a{
+    text-decoration: none;
+    color: white;
+}
+#footer-menu-container{
+    padding-left: 100px;
+}
+#copyright{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#navbar ul #mobile-cross, #mobile-bar{
+    display: none;
+}
+
+
+@media only screen and (max-width: 768px){
+    #navbar ul li{
+        padding-right: 20px;
+    }
+    .sec70{
+        padding-right: 30px;
+        box-sizing: border-box;
+    }
+}
+@media only screen and (max-width:500px){
+    #logobar img{
+        text-align: center;
+        padding-left: 85px;
+    }
+    #logobar h1{
+        letter-spacing: 2px;
+    }
+    #logobar h5{
+        letter-spacing: 2px;
+    }
+    .herohead h1{
+        font-size: 20px;
+    }
+    .herohead h1 span{
+        font-size: 40px;
+    }
+
+    .herohead .red1{
+        animation-name: hero;
+        position: relative;
+        animation-duration: 5s;
+    }
+    @keyframes hero{ 
+        0%{left:0px; top:0px;}
+        25%{left:0px; top:-20px;}
+        50%{left:50px; top:-20px;}
+        75%{left:50px;}
+        100%{left:0px; top:0px;}
+    }
+    .herohead .red2{
+        animation-name: hero2;
+        position: relative;
+        animation-duration: 5s;
+    }
+    @keyframes hero2{ 
+        0%{left:0px; top:0px;}
+        25%{left:0px; top:20px;}
+        50%{left:-50px; top: 20px;}
+        75%{left:-50px;}
+        100%{left:0px; top:0px;}
+    }
+    .herohead h1{
+        animation-name: leftright;
+        position: relative;
+        animation-duration: 5s;
+    }
+    @keyframes leftright{
+        0%   {eft:0px; top:0px;}
+      25%  {left:20px;}
+      50%  {left:-20px;}
+      75%  {left:30px;}
+      100% {left:0px; top:0px;}}
+    
+
+
+
+
+    .herohead p{
+        font-size: medium;
+    }
+    #whysection .sec33{
+        float: none;
+        width: 100%;
+    }
+    #contactcontainer .sec70{
+        width: 100%;
+        text-align: center;
+        padding-right: 0px;
+    }
+    #contactcontainer .sec30 input{
+        text-align: center;
+        width: 100%;
+        padding-right: 0px;
+    }
+    #subscribesection .sec50{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    #subscribesection .sec50 input{
+        width: 100%;
+        margin-top: 20px;
+        padding-top: 10px;
+    }
+    #imp-link .div33{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    #imp-link .div33 ul{
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        padding-left: 0px;
+        
+    }
+    #navbar{
+        position: absolute;
+        top: 0px;
+        height: 100vh;
+        width: 280px;
+        padding: 0px;
+    }
+    #navbar ul li{
+        display: block;
+        padding-right: 35px;
+        border-bottom: 1px solid lightgray;
+        padding-left: 20px;
+    }
+    #mobile-cross{
+        text-align: right;
+    }
+    .fa-times-circle{
+        font-size: 25px;
+    }
+    #navbar{
+        left: -280px;
+        transition: all 0.5s ease;
+    }
+    #mobile-bar{
+        background-color: black;
+        color: white;
+        padding: 18px;
+        font-size: 28px;
+    }
+    #navbar ul #mobile-cross, #mobile-bar{
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
+
